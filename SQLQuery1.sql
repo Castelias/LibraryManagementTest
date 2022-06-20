@@ -1,0 +1,1 @@
+﻿select a.Title from Book a inner join BorrowerBooks za on a.Id = za.BookId where za.BorrowerId = 1
